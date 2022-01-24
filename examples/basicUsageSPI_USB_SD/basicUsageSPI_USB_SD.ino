@@ -1,15 +1,3 @@
-/*------------------------------------------------------------------------------------------------------------------
- *    Author: György Kovács                                                                                         |
- *    Created: 07 Jan 2020                                                                                          |
- *    Description: Basic usage of CH376 with SPI port, switching between SD card and USB drive                      |
- *    ! WARNING ! Before you upload and test this sketch, read https://github.com/djuseeq/Ch376msc#getting-started, |
- *    PCB modding for SD card section, otherwise you can DAMAGE the CH376 module with switching source to SD card   |
- *    if your module is ready to SD card mode, remove from comment the SD card enable line in beginning of loop fnc.|
- *    Thanks for the idea to Scott C , https://arduinobasics.blogspot.com/2015/05/ch376s-usb-readwrite-module.html  |
- *------------------------------------------------------------------------------------------------------------------
- */
-
-
 #include <Ch376msc.h>
 
 //..............................................................................................................................
